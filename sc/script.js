@@ -27,14 +27,14 @@ $('.menu-btn i').toggleClass("active");
 });
 
 var typed = new Typed(".typing", {
-strings: ["Web Designer", "Artist", "Photography", "Programmer"],
+strings: ["Web Designer", "Artist", "Photographer", "Programmer"],
 typeSpeed: 100,
 backSpeed: 60,
 loop: true
 });
 
 var typed = new Typed(".typing-2", {
-strings: ["Web Designer", "Artist", "Photography", "Programmer"],
+strings: ["Web Designer", "Artist", "Photographer", "Programmer"],
 typeSpeed: 100,
 backSpeed: 60,
 loop: true
