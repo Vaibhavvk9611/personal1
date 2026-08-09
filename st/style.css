@@ -576,36 +576,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Floating Tech Pills */
-.floating-pill {
-  position: absolute;
-  padding: 0.5rem 1rem;
-  background: rgba(17, 24, 39, 0.85);
-  backdrop-filter: blur(12px);
-  border: 1px solid var(--glass-border);
-  border-radius: var(--radius-full);
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: var(--text-primary);
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  box-shadow: var(--shadow-md);
-  animation: float 4s ease-in-out infinite alternate;
-}
-
-[data-theme="light"] .floating-pill {
-  background: rgba(255, 255, 255, 0.9);
-}
-
-.pill-1 { top: 20px; left: -30px; animation-delay: 0s; }
-.pill-2 { bottom: 60px; right: -25px; animation-delay: 1.5s; }
-.pill-3 { bottom: -15px; left: 20px; animation-delay: 3s; }
-
-@keyframes float {
-  0% { transform: translateY(0px); }
-  100% { transform: translateY(-10px); }
-}
-
 /* --- About Section --- */
 .about-grid {
   display: grid;
